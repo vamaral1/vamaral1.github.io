@@ -12,10 +12,5 @@ A place to include any other types of information that you'd like to include abo
 
 ### Contact me
 
-<!-- [email@domain.com](mailto:email@domain.com) -->
-<form action="https://formspree.io/victorja714@email.com"
-      method="POST">
-    <input type="text" name="name">
-    <input type="email" name="_replyto">
-    <input type="submit" value="Send">
-</form>
+[email at domain dot com](mailto:victorja714 at gmail dot com)
+
