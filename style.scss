@@ -185,12 +185,6 @@ img {
   width: 200px;
   height: 200px;
   margin-right: 15px;
-  padding-bottom: 2cm;
-  -webkit-transform: rotate(90deg);
-  -moz-transform: rotate(90deg);
-  -o-transform: rotate(90deg);
-  -ms-transform: rotate(90deg);
-  transform: rotate(90deg);
 
   @include mobile {
     float: none;
