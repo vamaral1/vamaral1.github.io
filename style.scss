@@ -204,8 +204,11 @@ img {
     padding-left: 5px;
     margin:0;
 }
-.clearer {
+
+.project-clearfix::after {
+    content: "";
     clear: both;
+    display: table;
 }
 
 .site-info {
