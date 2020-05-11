@@ -78,7 +78,7 @@ We want to find the frequencies with the greatest spectral densities, that is, t
 
 To summarize, spectral analysis will identify the correlation of sine and cosine functions of different frequencies with the observed data. If a large correlation (sine or cosine coefficient) is identified, we can conclude that there is a strong periodicity of the respective frequency in the data.
 
-[Related post](../FT-python)
+[Related post](https://github.com/vamaral1/fft-dwt-nasa-turbofan/blob/master/fft-dwt-nasa-turbofan.ipynb)
 
 ### Extension to multivariate time series
 So far we've only discussed the univariate case. When we're trying to model multiple series and their interactions, we can extend some of these ideas to multivariate time series. In this case we have a $m \times n$ matrix $\mathbf{X}$ with each column containing a $n$ x $1$ vector representing a time series. In other words $\mathbf{X} = \mathbf{x_1}, \mathbf{x_2}, ..., \mathbf{x_m}$. 
