@@ -9,7 +9,7 @@ These notes are taken from the video series from [Welch Labs](http://www.welchla
 
 Suppose we have a training set $X \in \mathbb{R}^{n x m}$ with $n$ examples and $m$ features where $X_{ij}$ is the value for the $n^{th}$ example and $j^{th}$ feature.  Assume that the data has already been normalized to the range $[0,1]$ (important for equally weighing features of different scales). Additionally, we have labels $y_i$ for each of the $n$ training examples and predictions $\hat{y_i}$ for $i \in [1,n]$.
 
-![network](/_assets/nn.jpg)
+![network](/images/nn.jpg)
 
 
 Our neural network will have an input layer of size $m$, a hidden layer of size $k$ and an output layer of size $1$. We will learn weights $W^{(1)} \in \mathbb{R}^{m x k}$ connecting the input layer to the hidden layer and $W^{(2)} \in \mathbb{R}^{k x 1}$ connecting the hidden layer to the output layer in order to minimize the error $J = \sum_{i=1}^n \frac{1}{2}(y_i - \hat{y_i})^2$. We will call the activity of our second layer $z^{(2)}=XW^{(1)}$. Once we apply the activity function to each element in the matrix $z^{(2)}$, we get $a^{(2)} = f(z^{(2)})$. Here, we'll choose the activity function to be the sigmoid $f(z) = \frac{1}{1 + e^{-z}}$. Similarly, we do the same for the rest of the network and end up with the following equations:
